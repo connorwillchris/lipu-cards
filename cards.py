@@ -52,7 +52,7 @@ def create_card(text, color="white"):
 
     # Try loading font
     try:
-        font = ImageFont.truetype(FONT_PATH or "arial.ttf", 36)
+        font = ImageFont.truetype(FONT_PATH or "arial.ttf", 72)
     except:
         font = ImageFont.load_default()
 
